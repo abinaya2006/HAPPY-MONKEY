@@ -92,7 +92,7 @@ function draw() {
 
 
   if (gameState === PLAY) {
-    back.velocityX = -9
+    back.velocityX = -11
 
     if (back.x < 10) {
       back.x = 200
